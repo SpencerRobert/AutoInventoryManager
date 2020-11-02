@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+		
+	
+<bean id="LondonUsedVehicles" class="Inventory">
+	<constructor-arg name="cName" value="London's Used Vehicles" />
+	<constructor-arg name="csvName" value="Test1.csv" />
+</bean>
+
+<bean id="TestAutomobile1" class="Automobile">
+	<constructor-arg name="cClassification" value="Sedan" />
+	<constructor-arg name="cMake" value="Audi" />
+	<constructor-arg name="cModel" value="A3" />
+	<constructor-arg name="cCondition" value="Used" />
+	<constructor-arg name="cColor" value="Black" />
+	<constructor-arg name="cYear" value="2016" />
+	<constructor-arg name="cMileage" value="68000" />
+	<constructor-arg name="cPrice" value="19995" />
+</bean>
+
+<bean id="TestAutomobile2" class="Automobile">
+	<constructor-arg name="cClassification" value="SUV" />
+	<constructor-arg name="cMake" value="Jeep" />
+	<constructor-arg name="cModel" value="Patriot" />
+	<constructor-arg name="cCondition" value="Used" />
+	<constructor-arg name="cColor" value="Silver" />
+	<constructor-arg name="cYear" value="2016" />
+	<constructor-arg name="cMileage" value="94000" />
+	<constructor-arg name="cPrice" value="18995" />
+</bean>
+
+<bean id="TestAutomobile3" class="Automobile">
+	<constructor-arg name="cClassification" value="Sedan" />
+	<constructor-arg name="cMake" value="Pontiac" />
+	<constructor-arg name="cModel" value="G6" />
+	<constructor-arg name="cCondition" value="Used" />
+	<constructor-arg name="cColor" value="Navy" />
+	<constructor-arg name="cYear" value="2008" />
+	<constructor-arg name="cMileage" value="178000" />
+	<constructor-arg name="cPrice" value="3995" />
+</bean>
+
+<bean id="TestAutomobile4" class="Automobile">
+	<constructor-arg name="cClassification" value="Sedan" />
+	<constructor-arg name="cMake" value="Mazda" />
+	<constructor-arg name="cModel" value="Mazda3" />
+	<constructor-arg name="cCondition" value="Used" />
+	<constructor-arg name="cColor" value="Grey" />
+	<constructor-arg name="cYear" value="2018" />
+	<constructor-arg name="cMileage" value="60500" />
+	<constructor-arg name="cPrice" value="14995" />
+</bean>
+
+<bean id="TestAutomobile5" class="Automobile">
+	<constructor-arg name="cClassification" value="Truck" />
+	<constructor-arg name="cMake" value="Ford" />
+	<constructor-arg name="cModel" value="F-150" />
+	<constructor-arg name="cCondition" value="Used" />
+	<constructor-arg name="cColor" value="Black" />
+	<constructor-arg name="cYear" value="2010" />
+	<constructor-arg name="cMileage" value="83000" />
+	<constructor-arg name="cPrice" value="18995" />
+</bean>
+
+</beans>
